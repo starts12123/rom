@@ -1,0 +1,16 @@
+if(bt0.txt=="включить")
+{
+bt0.txt="выключить"
+bt0.pco=65535
+bt0.bco=55296
+print 0d 0a
+//d0.bco=61440
+}
+{
+bt0.txt="включить"
+bt0.pco=65535
+bt0.bco=1024
+print 1d 1a
+//b0. bco=61440
+}else
+{
